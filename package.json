@@ -1,0 +1,11 @@
+{
+  "name": "nodesenda",
+  "version": "1.0.0",
+  "description": "A Node.js project to send emails using Nodemailer",
+  "main": "sendemail.js",
+  "dependencies": {
+    "nodemailer": "^6.7.0"
+  },
+  "author": "Paige",
+  "license": "D-code-monks-cult"
+}
