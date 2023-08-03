@@ -41,9 +41,9 @@ const mailOptions = {
 Usage
 
 To send a test email, simply execute the sendmail.js script using Node.js:
-
+```
 node sendmail.js
-
+```
 The script will automatically send the email to the specified recipient using the provided email service.
 
 Customize the Email Content
