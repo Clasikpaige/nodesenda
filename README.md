@@ -22,34 +22,7 @@ npm install nodemailer
 
 	3.	d. Create the sendEmail.js file in your project directory:
 
-// sendEmail.js
-const nodemailer = require('nodemailer');
-
-// Create a transporter with your email service or custom SMTP configuration
-const transporter = nodemailer.createTransport({
-  service: 'Gmail', // Replace 'Gmail' with your email service or use custom SMTP configuration
-  auth: {
-    user: 'your_email@gmail.com', // Replace with your email address
-    pass: 'your_email_password', // Replace with your email password or use environment variables
-  },
-});
-
-// Compose the email details
-const mailOptions = {
-  from: 'your_email@gmail.com', // Replace with your email address
-  to: 'recipient@example.com', // Replace with the recipient's email address
-  subject: 'Test Email',
-  text: 'This is a test email sent using Nodemailer!',
-};
-
-// Send the email
-transporter.sendMail(mailOptions, (error, info) => {
-  if (error) {
-    console.log('Error occurred:', error.message);
-  } else {
-    console.log('Email sent:', info.response);
-  }
-});
+edit the code in sendemail.js to your prepfared taste
 
 	3.	e. Save the changes in the sendEmail.js file.
 f. Initialize a Git repository and make your first commit:
