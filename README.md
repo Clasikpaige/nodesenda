@@ -17,13 +17,14 @@ git clone https://github.com/clasikpaige/nodesenda
 cd nodesenda
 ```
 
-
-	2.	Install the project dependencies using npm:
-
+2. Install the project dependencies
+ using npm:
+```
 npm install
+```
 
-	3.	Open the sendmail.js file in the project directory and replace the following placeholders with your email credentials:
-
+3.Open the sendmail.js file in the project directory and replace the following placeholders with your email credentials:
+```
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
@@ -36,7 +37,7 @@ const mailOptions = {
   from: 'your_email@gmail.com',
   to: 'recipient@example.com',
 };
-
+```
 Usage
 
 To send a test email, simply execute the sendmail.js script using Node.js:
