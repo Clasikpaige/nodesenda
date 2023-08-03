@@ -39,16 +39,16 @@ const mailOptions = {
 
 Usage
 
-To send a test email, simply execute the sendEmail.js script using Node.js:
+To send a test email, simply execute the sendmail.js script using Node.js:
 
-node sendEmail.js
+node sendmail.js
 
 The script will automatically send the email to the specified recipient using the provided email service.
 
 Customize the Email Content
 
-To customize the content of the test email, you can modify the text field in the mailOptions object within the sendEmail.js file. Update the message text to include the content you want to send in the email.
+To customize the content of the test email, you can modify the text field in the mailOptions object within the sendmail.js file. Update the message text to include the content you want to send in the email.
 
 
 
-Replace the placeholders (e.g., `your-username`, `your_email@gmail.com`, `your_email_password`, `recipient@example.com`) with the appropriate values relevant to your project. This `README.md` file provides an overview of the project, installation instructions, usage details, customization options, licensing information, and acknowledgments. Markdown formatting allows you to create headings, lists, code blocks, links, and more to present the information in a clear and organized manner.
+Replace the placeholders (e.g., `your-username`, `your_email@gmail.com`, `your_email_password`, `recipient@example.com`) with the appropriate values relevant to your project. the `README.md` file provides an overview of the project, installation instructions, usage details.
